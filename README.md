@@ -48,7 +48,7 @@ Make stories truly personal by leveraging your child's reading history and uploa
 
 ### 3. Story Generation
 
-Generate age appropriate stories with DALL-E 3 powered images.
+Generate age-appropriate stories with DALL-E 3 powered images.
 
 ![Story](./screenshots/generated-story.png)
 > *Screenshot placeholder: Generated story with title and image*
@@ -61,10 +61,10 @@ Record story readings and get instant feedback on pronunciation, fluency, and ac
 > *Screenshot placeholder: Audio recorder with waveform visualization and record/stop buttons*
 
 ![Reading Results 1](./screenshots/reading-results-1.png)
-> *Screenshot placeholder: Reading Results part-1*
+> *Screenshot placeholder: Reading Results part 1*
 
 ![Reading Results 2](./screenshots/reading-results-2.png)
-> *Screenshot placeholder: Reading Results part-2*
+> *Screenshot placeholder: Reading Results part 2*
 
 **Capabilities:**
 - **Audio Upload**: Record directly in the browser or upload WAV/MP3 audio files.
@@ -90,21 +90,20 @@ Automated question generation and an intelligent text-based feedback system to r
 - **Multiple Attempts**: Take assessments as many times as needed.
 
 ![Feedback Results](./screenshots/feedback-results.png)
-> *Screenshot placeholder: Detailed feedback showing end result for each question.*
+> *Screenshot placeholder: Detailed feedback showing end result for each question*
 
 **Intelligent Feedback:**
-- **Rating System**: 1-5 star rating per answer(used emojies).
+- **Rating System**: 1-5 star rating per answer (using emojis).
 - **Constructive Feedback**: Specific guidance on how to improve understanding.
 - **Positive Reinforcement**: Encouraging messages to maintain motivation.
 - **Detailed Analysis**: Comparison of the child's answer vs. the correct answer.
 
 ![Feedback Results List](./screenshots/feedback-results-list.png)
-> *Screenshot placeholder:Zoomed Out screenshot of feedback results list.*
+> *Screenshot placeholder: Zoomed out screenshot of feedback results list*
 
 ### 6. Multi-User Management
 
-Secure authentication system with personalized dashboards for each family (image same as book library).
-
+Secure authentication system with personalized dashboards for each family.
 
 **User Features:**
 - **Secure Registration**: Parent email, child name, age, and grade level.
@@ -132,7 +131,7 @@ A modern, intuitive interface designed for both parents and children.
 - **Database**: MongoDB Atlas (external cluster)
 - **Vector Store**: ChromaDB for RAG functionality
 - **AI Services**:
-  - OpenAI GPT-5-Mini (story generation, text processing)
+  - OpenAI GPT-4o-Mini (story generation, text processing) as OpenAI GPT-5-Mini was unstable.
   - OpenAI DALL-E 3 (image generation)
   - AssemblyAI (audio transcription)
 - **Cloud Storage**: AWS S3 (images and book files)
