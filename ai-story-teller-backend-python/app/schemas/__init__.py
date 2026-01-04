@@ -1,0 +1,2 @@
+# Beanie document models module
+

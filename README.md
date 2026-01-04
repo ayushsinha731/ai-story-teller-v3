@@ -137,6 +137,7 @@ A modern, intuitive interface designed for both parents and children.
 - **Cloud Storage**: AWS S3 (images and book files)
 - **Authentication**: JWT with HTTP-only cookies
 - **ODM**: Beanie for MongoDB
+- **Orchestration**: LangChain (RAG & Story Graph)
 
 #### Frontend (React + Vite)
 - **Framework**: React 18 with Vite
